@@ -1,6 +1,6 @@
 {
   "name": "imgurl-to-base64",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "A simple wrapper that converts images urls to base64 image strings",
   "repository": {
