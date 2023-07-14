@@ -2,20 +2,19 @@
   "name": "imgurl-to-base64",
   "version": "1.0.0",
   "description": "A simple wrapper that converts images urls to base64 image strings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmilChigu/imgUrl-to-base64.git"},
   "main": "src/index.ts",
   "scripts": {
     "start:dev": "npx nodemon",
-    "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Emil Chigu",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.4.2",
-    "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.1.6",
-    "rimraf": "^5.0.1"
-  }
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["image", "base64", "url", "image to base64", "image url to base64"]
 }
