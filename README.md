@@ -15,11 +15,11 @@ npm install imgurl-to-base64
 ```javascript
 import imgUrlToBase64 from 'imgurl-to-base64'
 
-const imgUrl = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
+const url = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
 
-imgUrlToBase64(imgUrl).then((res) => {
-  return res
-})
+const test = async () => {
+  console.log(await imgUrlToBase64(url))
+}
 ```
 
 ## Contributing
