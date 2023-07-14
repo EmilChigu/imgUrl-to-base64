@@ -1,11 +1,13 @@
 {
   "name": "imgurl-to-base64",
   "version": "1.0.0",
+  "type": "module",
   "description": "A simple wrapper that converts images urls to base64 image strings",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EmilChigu/imgUrl-to-base64.git"},
-  "main": "src/index.ts",
+    "url": "https://github.com/EmilChigu/imgUrl-to-base64.git"
+  },
+  "main": "index.js",
   "scripts": {
     "start:dev": "npx nodemon",
     "start": "node index.js",
@@ -16,5 +18,15 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "keywords": ["image", "base64", "url", "image to base64", "image url to base64"]
+  "keywords": [
+    "image",
+    "base64",
+    "url",
+    "image to base64",
+    "image url to base64"
+  ],
+  "dependencies": {
+    "axios": "^1.4.0",
+    "node-fetch": "^3.3.1"
+  }
 }
